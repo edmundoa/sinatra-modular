@@ -15,7 +15,6 @@ class MyApplication < Sinatra::Base
 end
 
 %w(controllers/base_controller.rb
-   controllers/*
-   views/*).each do |expression|
+   controllers/*).each do |expression|
      Dir.glob(expression).each {|file| require file }
    end
