@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rApt</title>
+  </head>
+  <body>
+    <div>
+      <% flash.keys.each do |level| %>
+        <div class="<%= level %>">
+          <%= flash[level] %>
+        </div>
+      <% end %>
+      <%= yield %>
+    </div>
+  </body>
+</html>
