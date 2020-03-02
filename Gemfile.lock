@@ -13,9 +13,8 @@ GEM
     minitest (5.0.8)
     mocha (0.14.0)
       metaclass (~> 0.0.1)
-    puma (2.6.0)
-      rack (>= 1.1, < 2.0)
-    rack (1.5.2)
+    puma (3.12.3)
+    rack (1.6.13)
     rack-flash3 (1.0.5)
       rack
     rack-protection (1.5.1)
@@ -37,7 +36,7 @@ DEPENDENCIES
   binding_of_caller
   minitest
   mocha
-  puma (~> 2.6.0)
+  puma (~> 3.12.3)
   rack-flash3 (~> 1.0.5)
   rack-test
   rake (~> 10.1.0)

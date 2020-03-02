@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rake', '~> 10.1.0'
 gem 'sinatra', '~> 1.4.4'
 gem 'rack-flash3', '~> 1.0.5'
-gem 'puma', '~> 2.6.0'
+gem 'puma', '~> 3.12.3'
 # Useful gems
 # gem 'redis', '~> 3.0.5'
 # gem 'sidekiq', '~> 2.16.0'
