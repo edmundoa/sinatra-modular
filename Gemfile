@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake', '~> 10.1.0'
+gem 'rake', '~> 12.3.3'
 gem 'sinatra', '~> 1.4.4'
 gem 'rack-flash3', '~> 1.0.5'
 gem 'puma', '~> 2.6.0'
